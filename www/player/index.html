@@ -1,0 +1,91 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>LIVE On BMKCCTV</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- NAV -->
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151515;
+    position: top ;
+    bottom: 0 ;
+    width: 100%
+}
+
+li {
+    float: right;
+     width: 100%
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: brown;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+<!-- Mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+<!-- Block Copy Script -->
+<script language=JavaScript> var message="Do Not Copy !"; function clickIE4(){ if (event.button==2){ alert(message); return false; } }
+ function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } }
+ if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } 
+  else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
+<!-- Site Design Script --> 
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="style.css">
+<!-- Player Element -->
+<script src="jwplayer.js"></script>
+<script>jwplayer.key="IzEqVjRNGbvR6o5C9Fa0V+d5RKsU6WMks6OoUQ==";</script>
+</head>
+<body>
+<!-- Menu -->
+    <ul>
+      <li><a href=" http://www.bmkc.edu.hk/"> Back To BMKC Website</a></li>
+    </ul>
+</nav>
+<div class="content">
+<div align="center">
+<!-- Site Message -->
+<h1><font color="#DF013A">LIVE </font><font color="#FFFFFF"> On Campus TV</font></h1>
+<h6>< <font color="#FFFFFF">Welocme To  Live Broadcast System</font></h6><br>
+<!-- Video Here -->
+<div id="my-video"></div>
+<script type="text/javascript">
+jwplayer("my-video").setup({
+ file: "rtmp://19nas.ddns.net/live/demo",
+width: "50%",
+aspectratio: "16:9",
+ primary: "flash",
+ androidhls: true
+});
+</script></div> <br><br><br>
+<p class="footer">&copy; <a href="http://ctvblog-hackintosh12945.rhcloud.com/">BMKC Campus TV </a> . All Rights Reserved |
+ Design by <a href="http://w3layouts.com/" target="_blank"> W3layouts</a>
+</body>
+</html>
