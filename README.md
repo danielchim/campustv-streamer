@@ -8,6 +8,8 @@ pcre-8.36
 zlib-1.2.8  
 # 使用方法
 雙擊nginx.exe
+# 停止方法
+雙擊StopNginx.bat
 # 簡要說明
 conf/nginx.conf 為配置文件實例  
 RTMP監聽 1935 端口，啟用live 和hls 兩個application  
