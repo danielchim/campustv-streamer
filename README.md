@@ -1,4 +1,4 @@
-BMKCCampusTV nginx-rtmp-win32
+BMKC CampusTV nginx-rtmp-win32
 ================
 
 Nginx: 1.9.5  
